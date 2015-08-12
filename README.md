@@ -1,7 +1,7 @@
 # example-gosuc-inverted
 Example usage of the Gosu compiler component for Maven's compiler plugin.
 
-This example **inverts** typical Java-Gosu interplay.  In this repo, a Java class will instantiate pre-compiled Gosu classes directly from bytecode (i.e. not via reflection).
+This example **inverts** typical Java-Gosu interplay.  In this repo, a Java class will instantiate Gosu classes in the project directly from bytecode (i.e. not via reflection).
 
 ## Assumptions
 This project assumes a hybrid Gosu project with a mixture of Gosu and Java classes and tests.
