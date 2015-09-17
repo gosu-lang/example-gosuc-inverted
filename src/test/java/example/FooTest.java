@@ -16,7 +16,7 @@ public class FooTest {
 
     System.out.println(foo.doSomething("oh, inverted world"));
 
-    assertEquals(42, IBarEnhancement.getMeaningOfLife(foo));
+    assertEquals(42, IBarEnhancement.getMeaningOfLife(foo)); //note, this will show as a potential compiler error in the IDE, but the code will execute properly in Maven.
   }
 
 }
